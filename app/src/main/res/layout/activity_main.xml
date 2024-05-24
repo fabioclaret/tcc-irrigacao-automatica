@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo">
+
+    <Button
+        android:id="@+id/button_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ligar Bomba"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/button_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desligar Bomba"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_on" />
+
+    <Button
+        android:id="@+id/button_auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modo Automático"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button_off"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/button_activity2"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_auto"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/casa"
+        android:backgroundTint="#FFFDFD" />
+
+    <Button
+        android:id="@+id/button_go_to_main_activity3"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_auto"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/button_activity2"
+        android:background="@drawable/plantas" />
+
+    <Button
+        android:id="@+id/button_go_to_main_activity4"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_auto"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginBottom="14dp"
+        android:layout_toEndOf="@+id/button_go_to_main_activity3"
+        android:background="@drawable/info"
+        android:backgroundTint="#FFFFFF" />
+
+</RelativeLayout>
